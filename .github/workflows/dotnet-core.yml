@@ -23,12 +23,6 @@ jobs:
       run: dotnet build --configuration Release --no-restore
     - name: Test
       run: dotnet test --no-restore --verbosity normal --filter Category=Unit
-    - name: Push to Github Packages
-      uses: brandedoutcast/publish-nuget@v2.5.5
-      with:
-        PROJECT_FILE_PATH: src/LoR.Client/LoR.Client.csproj
-        NUGET_SOURCE: https://nuget.pkg.github.com/danspark/lor-api-client/index.json
-        NUGET_KEY: ${{secrets.GITHUB_TOKEN}}
     - name: Push to NuGet
       uses: brandedoutcast/publish-nuget@v2.5.5
       with:
