@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
@@ -12,6 +12,7 @@
         <RepositoryUrl>https://github.com/danspark/lor-api-client</RepositoryUrl>
         <PackageIcon>runeterra.ico</PackageIcon>
         <PackageProjectUrl>https://github.com/danspark/lor-api-client</PackageProjectUrl>
+        <Version>0.1.0-alpha</Version>
     </PropertyGroup>
 
     <ItemGroup>
