@@ -8,6 +8,10 @@
         <Product>Legends of Runeterra API Client</Product>
         <Description>C# client for the Legends of Runeterra API</Description>
         <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+        <PackageTags>LoR,Runeterra,Legends of Runeterra,Riot Games</PackageTags>
+        <RepositoryUrl>https://github.com/danspark/lor-api-client</RepositoryUrl>
+        <PackageIcon>runeterra.ico</PackageIcon>
+        <PackageProjectUrl>https://github.com/danspark/lor-api-client</PackageProjectUrl>
     </PropertyGroup>
 
     <ItemGroup>
@@ -16,6 +20,10 @@
 
     <ItemGroup>
       <None Include="..\..\LICENSE.txt">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+      </None>
+      <None Include="runeterra.ico">
         <Pack>True</Pack>
         <PackagePath></PackagePath>
       </None>
