@@ -10,7 +10,7 @@
         <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
         <PackageTags>LoR,Runeterra,Legends of Runeterra,Riot Games</PackageTags>
         <RepositoryUrl>https://github.com/danspark/lor-api-client</RepositoryUrl>
-        <PackageIcon>runeterra.ico</PackageIcon>
+        <PackageIcon>runeterra.png</PackageIcon>
         <PackageProjectUrl>https://github.com/danspark/lor-api-client</PackageProjectUrl>
         <Version>0.1.0-alpha</Version>
     </PropertyGroup>
@@ -24,7 +24,7 @@
         <Pack>True</Pack>
         <PackagePath></PackagePath>
       </None>
-      <None Include="runeterra.ico">
+      <None Include="runeterra.png">
         <Pack>True</Pack>
         <PackagePath></PackagePath>
       </None>
