@@ -9,12 +9,12 @@ namespace LoR.Client.Internal
         Task<ActiveDeckResponse> GetActiveDeckAsync();
 
         [Get("/positional-rectangles")]
-        Task<CardPositionsResponse> GetCardPositions();
+        Task<CardPositionsResponse> GetCardPositionsAsync();
 
         [Get("/expeditions-state")]
-        Task<ExpeditionsResponse> GetExpeditionsState();
+        Task<ExpeditionsResponse> GetExpeditionsStateAsync();
 
         [Get("/game-result")]
-        Task<GameResultResponse> GetLastGameResult();
+        Task<GameResultResponse> GetLastGameResultAsync();
     }
 }

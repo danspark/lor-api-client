@@ -11,15 +11,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoR.Client", "src\LoR.Client\LoR.Client.csproj", "{D86FBE49-3F1F-40D6-9A88-E6C775D40B58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoR.Client", "src\LoR.Client\LoR.Client.csproj", "{D86FBE49-3F1F-40D6-9A88-E6C775D40B58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoR.Client.Tests", "tests\LoR.Client.Tests\LoR.Client.Tests.csproj", "{B7E82C16-3908-4C1B-BE31-AB06F2269F0A}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D86FBE49-3F1F-40D6-9A88-E6C775D40B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86FBE49-3F1F-40D6-9A88-E6C775D40B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86FBE49-3F1F-40D6-9A88-E6C775D40B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86FBE49-3F1F-40D6-9A88-E6C775D40B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E82C16-3908-4C1B-BE31-AB06F2269F0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E82C16-3908-4C1B-BE31-AB06F2269F0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E82C16-3908-4C1B-BE31-AB06F2269F0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E82C16-3908-4C1B-BE31-AB06F2269F0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37CC3AC1-9B2F-4060-A94D-844B5699D9C5}
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 	EndGlobalSection
 EndGlobal
