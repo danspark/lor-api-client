@@ -1,5 +1,5 @@
-﻿using System.Threading.Tasks;
-using Refit;
+﻿using Refit;
+using System.Threading.Tasks;
 
 namespace LoR.Client.Internal
 {
