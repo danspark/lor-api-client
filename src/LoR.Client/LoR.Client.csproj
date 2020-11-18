@@ -13,7 +13,7 @@
         <RepositoryUrl>https://github.com/danspark/lor-api-client</RepositoryUrl>
         <PackageIcon>runeterra.png</PackageIcon>
         <PackageProjectUrl>https://github.com/danspark/lor-api-client</PackageProjectUrl>
-        <Version>0.1.2-alpha</Version>
+        <Version>0.2.0-alpha</Version>
     </PropertyGroup>
 
     <ItemGroup>
