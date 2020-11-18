@@ -7,7 +7,7 @@
         <Authors>danspark</Authors>
         <Company>danspark</Company>
         <Product>Legends of Runeterra API Client</Product>
-        <Description>C# client for the Legends of Runeterra API</Description>
+        <Description>C# client for the Legends of Runeterra in-game API</Description>
         <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
         <PackageTags>LoR,Runeterra,Legends of Runeterra,Riot Games</PackageTags>
         <RepositoryUrl>https://github.com/danspark/lor-api-client</RepositoryUrl>
